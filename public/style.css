@@ -7,6 +7,7 @@ html{
     box-sizing: border-box;
     text-decoration: none;
     background: transparent;
+    overflow: hidden;
 }
 body{
     background: rgb(30, 30, 30);

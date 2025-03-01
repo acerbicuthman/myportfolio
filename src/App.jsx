@@ -24,7 +24,7 @@ function App() {
     <>
     <button onClick={toggleTheme}
     style={{position: "fixed",
-    top: "20px",
+    bottom: "40px",
     right: "2px",
     padding: "10px 20px",
     background: theme === "light" ? "#333" : "#fff",

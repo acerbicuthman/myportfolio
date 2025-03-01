@@ -117,8 +117,9 @@ height: 1rem;
       font-size: 8vw;
     }
     #intro{
-        padding-left: 5rem;
+        
         width: 100%;
+        
     }
   
     .hello {
@@ -126,6 +127,10 @@ height: 1rem;
     }
     .introContent{
       color: #fff;
+    }
+    .introPara{
+   max-width: 25rem;
+   margin: 2rem 0;
     }
   }
   
