@@ -1,0 +1,131 @@
+#intro{
+    height: calc(100vh - 4rem);
+    width: 100%;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.bg{
+    position: absolute;
+    top: -4rem;
+    right: 0;
+    z-index: -1;
+    object-fit: cover;
+    height: 100%;
+    width: 50%;
+    border-radius: 3rem;
+    transform: scaleX(-1);
+}
+.introContent{
+    height: 100vh;
+    width: 100vh;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hello{
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+.introName{
+    color:  #00BFFF;
+    letter-spacing: 1.5rem;
+    padding: 0 0.1rem;
+    margin-left: 1.5rem;
+    text-shadow: 0 0 18px #00BFFF, 0 0 20PX black, 0 0 30PX #00BFFF;
+  animation: glow 1.5s infinite alternate;
+  text-decoration: solid;
+  
+  }   
+  @keyframes glow {
+    0% {
+      text-shadow: 0 0 5px #00BFFF, 0 0 10px black, 0 0 15px rgb(48, 89, 184);
+    }
+    100% {
+      
+      text-shadow: 0 0 20px #00BFFF, 0 0 30px black, 0 0 40px rgb(48, 89, 184);
+    }
+  }                                
+.introPara{
+    font-size: medium;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.btn{
+    background-color: #fff;
+    margin: 1rem 0;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 2rem;
+}
+.btnImg{
+object-fit: cover;
+margin: 0 0.25rem;
+height: 1rem;
+}
+/* @media screen and (max-width:840px) {
+    .bg{
+    right: -10vw;
+    }    
+    .introContent{
+        font-size: 10vw;
+    }
+    .hello{
+        font-size: 4.5rem;
+    }
+}
+@media screen and (max-width:480px) {
+    .bg{
+    right: -50vw;
+    }    
+   } */
+   @media screen and (max-width: 840px) {
+    .bg {
+      right: 0; 
+      height: 100%;
+      width: 100%;
+      
+    }
+  
+    .introContent {
+      font-size: 6vw; 
+    }
+
+    
+    .hello {
+      font-size: 3rem; 
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .bg {
+      right: 0;
+      height: 100%;
+      width: 100%;
+     
+    }
+  
+    .introContent {
+      font-size: 8vw;
+    }
+    #intro{
+        padding-left: 5rem;
+        width: 100%;
+    }
+  
+    .hello {
+      font-size: 3.5rem;
+    }
+    .introContent{
+      color: #fff;
+    }
+  }
+  
