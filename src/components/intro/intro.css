@@ -108,6 +108,8 @@ height: 1rem;
   @media screen and (max-width: 480px) {
     .bg {
       right: 0;
+      z-index: 0;
+      
       height: 100%;
       width: 100%;
      
@@ -116,11 +118,7 @@ height: 1rem;
     .introContent {
       font-size: 8vw;
     }
-    #intro{
-        
-        width: 100%;
-        
-    }
+  
   
     .hello {
       font-size: 3.5rem;

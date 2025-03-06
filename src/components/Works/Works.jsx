@@ -6,6 +6,7 @@ import Portfolio6 from '../../assets/portfolio-6.png'
 import FusionFlix from '../../assets/fusionflix.png'
 import TourSmart from '../../assets/travelsamrt.png'
 import BoxFarm from '../../assets/box-farm-gree.png'
+import Lmslogo from '../../assets/lmslogo.png'
 
 
 const Works = () => {
@@ -22,11 +23,14 @@ const Works = () => {
 
             <img src={TourSmart} alt="" className="worksImg" />
             </a>
+            <a href="https://courseflix.vercel.app/" target="_blank" rel="noopener noreferrer">
+           <img src={Lmslogo} alt="" className="worksImg" />
+           </a>
            <a href="https://farmmart-current.vercel.app" target="_blank" rel="noopener noreferrer">
            <img src={BoxFarm} alt="" className="worksImg" />
            </a>
            
-            <img src={Portfolio4} alt="" className="worksImg" />
+            {/* <img src={Portfolio4} alt="" className="worksImg" /> */}
             <img src={Portfolio5} alt="" className="worksImg" />
             <img src={Portfolio6} alt="" className="worksImg" />
         </div>
