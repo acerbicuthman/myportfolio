@@ -8,3 +8,8 @@
     font-weight: 300;
     font-size: small;
 }
+@media screen and (max-width: 768px) {
+    #footer{
+        padding: 2px 15px;
+text-align: center;}
+}

@@ -1,7 +1,7 @@
 #skills{
     overflow: hidden;
     width: 200vw;
-    max-width: 65rem;
+    max-width: 63rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,7 +46,11 @@
     font-weight: 200;
 
 }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 786px) {
+    #skills{
+        max-width: 650px;
+    }
+   
     .skillBarText{
         font-size: 2vw;
     }    
@@ -54,10 +58,11 @@
 @media screen and (max-width: 480px) {
 
     #skills{
-        max-width: 28rem;
+       max-width: 320px;
     }
     .skillBarText{
         font-size: 3vw;
+        max-width: 100%;
     }    
     .skillBarImg{
         height: 2.23rem;

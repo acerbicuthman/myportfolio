@@ -75,6 +75,7 @@ cursor: pointer;
 }
 .mobMenu{
     display: none;
+    
 }
 .navMenu{
     position: absolute;
@@ -106,4 +107,5 @@ background: rgb(30, 30, 30);
 .desktopMenuBtn{
     display: none;
 }
+
 }
