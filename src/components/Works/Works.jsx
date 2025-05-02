@@ -15,17 +15,21 @@ const Works = () => {
         <h2 className="WorksTitle">My Portfolio</h2>
         <span className='worksDesc'>i take pride in paying attention to the smallest details and making sure my work is pixel perfect, i am excited to bring my skills and experience to help businesses achieve their goals and create a strong online presence.   </span>
         <div className="worksImgs">
+        <a href="https://courseflix.vercel.app/" target="_blank" rel="noopener noreferrer">
+           <img src={Lmslogo} alt="" className="worksImg" />
+           </a>
+           <a href="https://travelsmart-nu.vercel.app" target="_blank" rel="noopener noreferrer">
+
+<img src={TourSmart} alt="" className="worksImg" />
+</a>
+
+
           <a href="https://movieapp-brown.vercel.app" target="_blank" rel="noopener noreferrer">
           <img src={FusionFlix} alt="" className="worksImg" />
           </a>
             
-            <a href="https://travelsmart-nu.vercel.app" target="_blank" rel="noopener noreferrer">
-
-            <img src={TourSmart} alt="" className="worksImg" />
-            </a>
-            <a href="https://courseflix.vercel.app/" target="_blank" rel="noopener noreferrer">
-           <img src={Lmslogo} alt="" className="worksImg" />
-           </a>
+            
+           
            <a href="https://farmmart-current.vercel.app" target="_blank" rel="noopener noreferrer">
            <img src={BoxFarm} alt="" className="worksImg" />
            </a>
